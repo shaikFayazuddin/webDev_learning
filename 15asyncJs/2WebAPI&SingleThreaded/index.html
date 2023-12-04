@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebAPIs & Single Threading</title>
+</head>
+<body>
+    <h1>WebAPIs & Single Threading</h1>
+    <ul>
+        <li>
+            Browsers come with Web APIs that are able to handle certain tasks in the background(like making requests or setTimeout)
+        </li>
+        <li>
+            The JS call stack recognizes these Web API functions and passes them off to the browser to take care of
+        </li>
+        <li>
+            Once the browser finishes those tasks, they return and are pushed onto the task as a callback
+        </li>
+    </ul>
+    <script src="app.js"></script>
+</body>
+</html>

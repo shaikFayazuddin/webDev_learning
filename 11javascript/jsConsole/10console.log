@@ -1,0 +1,46 @@
+console.log('hello')
+VM542:1 hello
+undefined
+console.log(3+4, 'hi', okay, true)
+VM706:1 Uncaught ReferenceError: okay is not defined
+    at <anonymous>:1:24
+(anonymous) @ VM706:1
+console.log(3+4, 'hi', 'okay', true)
+VM745:1 7 'hi' 'okay' true
+undefined
+console.warn('are you sure???)
+VM880:1 Uncaught SyntaxError: Invalid or unexpected token
+console.warn('are you sure???')
+VM891:1 
+        
+       are you sure???
+(anonymous) @ VM891:1
+undefined
+console.error('enter password')
+VM1032:1 
+        
+       enter password
+(anonymous) @ VM1032:1
+undefined
+alert('want to leave?)
+VM1121:1 Uncaught SyntaxError: Invalid or unexpected token
+alert('want to leave?')
+undefined
+prompt('please enter a number')
+'jafdja'
+let password = prompt('enter your password')
+undefined
+password
+'fayaz'
+let length = 15+33
+undefined
+length
+48
+let breadth = '50'
+undefined
+breadth
+'50'
+parseInt('breadth')
+NaN
+parseInt('89')
+89

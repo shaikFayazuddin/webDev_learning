@@ -1,0 +1,28 @@
+9 == '9'
+true
+9 === '9'
+false
+9
+9
+9 != '9'
+false
+'A' > 'a'
+false
+ '@' < 'a'
+true
+ 1 == 1
+true
+1 == '1'
+true
+0 == ''
+true
+0 == false
+true
+1 !== 1
+false
+1 != 1
+false
+1 != '1'
+false
+1 !== '1'
+true

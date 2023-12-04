@@ -1,0 +1,163 @@
+/* universal selector */
+/* * {
+    background-color: aquamarine;
+} */
+
+body {
+    background-color: #f1faee;
+}
+
+/* element selector */
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+
+}
+
+/* multiple element selector */
+h1,h2 {
+    color: #1d3557;
+}
+
+/* ID selector */
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+#search {
+    color: rgb(215, 60, 145);
+}
+
+/* CLASS SELECTOR */
+span {
+    color: #457b9d
+}
+
+.tag {
+    background-color: blueviolet;
+    color : #f1faee;
+    font-size: 16px;
+}
+
+/* descendant selector */
+/* select all elements that are nested inside the fist element  */
+/* coloring all anchor tags insdie span element */
+
+span a {
+    color : #d87ebf;
+}
+
+footer a {
+    color :#c2cd25
+}
+
+
+/* adjacent selector */
+/* select only the h2 that are immediately preceded by span */
+
+span + h2 {
+    color: red;
+}
+
+
+/* Direct Child */
+/* select only the that are direct children of a element */
+nav > h2 {
+    font-style: italic;
+}
+
+/* Attribute Selector */
+/* select all input elements where the  type attribute is set to 'text' */
+input[type="password"]{
+    color : greenyellow
+}
+
+a[href*="google"]{
+    color:brown ;
+}
+
+/* Psuedo Classes */
+/* keyword added to a selector that specifies a special state 
+of the selected element(s) */
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+a:active {
+    background-color: black;
+}
+
+h2:active {
+    color: green;
+}
+
+.post:nth-of-type(2n) {
+    background-color: wheat;
+}
+
+/* Pseudo Elements */
+/* Keyword added to a slector that lets you style a particular part of 
+selected elements */
+
+h2::first-letter{
+    font-size: 40px;
+    color:black;
+}
+
+h2::selection{
+    background-color: yellow;
+}
+
+/* The Cascade */
+/* The ordaer your styles are declard and liked to html that matters */
+h4{
+    color :rgb(215, 60, 145)
+
+}
+h4 {
+    color: rgb(184, 90, 194)
+}
+
+/* What happens when the conflicting styles
+ target the same elements */
+/* ID Selectors > Class,Attribute,&Pseudo Class Selectors > Element & 
+Pseudo Element Selector */
+li {
+    color: orange;
+}
+
+.nav-link {
+    color: magenta;
+}
+
+ul li {
+    color: rgb(168, 225, 94);
+}
+/* Another example */
+.about .heading {
+    color: orange;
+}
+
+.about h2.heading {
+    color: pink;
+}
+
+section.about .heading {
+    color: rgb(138, 162, 45);
+}
+
+/* INline Styles */
+/* Inline Styles are more specific than the rest
+When used in the html they get the first preference 
+It is recommended not to use them */
+
+/* The Importanat */
+/* When this is used in the CSS code it wins automatically. */
+/* Targetting the #signup ID used for button */
+button {
+    background-color: gold !important;
+}

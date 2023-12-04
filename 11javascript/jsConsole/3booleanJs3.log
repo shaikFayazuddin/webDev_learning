@@ -1,0 +1,22 @@
+let areyoulearning = true;
+undefined
+areyoulearning
+true
+areyoulearning = false;
+false
+areyoulearning
+false
+areyoulearning = 0
+0
+areyoulearning
+0
+areyoulearning = true
+true
+areyoulearning
+true
+ler areYouEating = true
+VM1914:1 Uncaught SyntaxError: Unexpected identifier 'areYouEating'
+let areYouEating = true
+undefined
+areYouEating
+true

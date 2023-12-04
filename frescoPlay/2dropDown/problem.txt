@@ -1,0 +1,27 @@
+
+Complete the javascript code with the follwing hints.
+
+ - Open index.html file, user registration form has a drop-down field Country:.
+
+ - Write code by using JavaScript to add a new country to the list.
+
+Please refere the screenshots ``Instructions/Screenshots/drop_down_ss_1.png`` and ``Instructions/Screenshots/drop_down_ss_2.png`` for the referance. If you were not able to open the image, please right click on the image and download to view in your local machine.
+
+Steps to do hands-on:
+
+1. To install all the required packages. Open Terminal, go to /home/project folder, type “npm install".
+
+2. Write the code in "index.js".
+
+3. To test the application: Open terminal go to /home/project folder, type as “npm test” or press Run Test Cases button.
+
+Important Note:
+    To view the output, follow the below steps.
+    1. Click on EYE icon which is on the top right to the editor.
+    2. Under Ports, select 3000 port and then click on EXPOSE button.
+    3. The newly added port should be visible on Available Port(s) tab.
+    4. Click the copy icon to copy the exposed port's URL.
+    5. Paste the copied URL in PROJECT/.env file as the value for PUBLIC_URL variable.
+    7. Run the app using the command `` npm start `` in the terminal.
+    6. Wait for few seconds for the server to start and finally to view the output, Press the Eye option again and press the preview button for 3000 port.
+    - If the preview doesn't display the output, right click inside the preview window and click on reload frame option.

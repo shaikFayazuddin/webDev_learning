@@ -1,0 +1,38 @@
+let favAnimal = 'Horse'
+undefined
+favAnimal
+'Horse'
+let animal = "Goat"
+undefined
+animal
+'Goat'
+animal[2]
+'a'
+animal.length
+4
+animal.bold
+ƒ bold() { [native code] }
+'sheep'.length
+5
+'sheep'[3]
+'e'
+animal + 'sheep'
+'Goatsheep'
+favAnimal + ' '  + 'is'+ ' ' + animal
+'Horse is Goat'
+let firstName = 'Fayazuddin'
+undefined
+let lastName = 'Shaik'
+undefined
+let fullName = firstName + ' ' + lastName
+undefined
+fullName
+'Fayazuddin Shaik'
+let userName = firstName + 369
+undefined
+userName
+'Fayazuddin369'
+typeof userName
+'string'
+typeof 369
+'number'

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>forms & tables</title>
+</head>
+<body>
+    <h1>Welcome again</h1>
+    <h2>Here we will get see about tables and other stuff</h2><br>
+    <h2>INDIA- FACTS &amp; FIGURES</h2>
+    <table>
+        <thead>
+            <th>State</th>
+            <th>Capital</th>
+            <th>Density(per sq.km)</th>
+            <th>Districts</th>
+        </thead>
+
+        <tbody>
+            
+            <tr>
+                <td>Andhra Pradesh</td>
+                <td>Hyderabad</td>
+                <td>308</td>
+                <td>13</td>
+            </tr>
+            
+            <tr>
+                <td>Arunachal Pradesh</td>
+                <td>Itanagr</td>
+                <td>17</td>
+                <td>25</td>
+            
+            </tr>
+            <tr>
+                <td>Assam</td>
+                <td>Dispur</td>
+                <td>398</td>
+                <td>33</td>
+            
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Table 2</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Average Mass</th>
+                <th rowspan="2">Flighted</th>
+            </tr>
+
+            <tr>
+                <th>Kg</th>
+                <th>LB</th>
+            </tr>
+            
+            
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ostrcich</td>
+                <td>104</td>
+                <td>230</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>90</td>
+                <td>200</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Wild Turkey</td>
+                <td>13.5</td>
+                <td>29.8</td>
+                <td>Yes</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h2>Creating forms</h2>
+    <form action="/myforms">
+    <!-- action sends the form data to the mentioned place -->
+    <input type="button"><br>
+    <input type="checkbox"><br>
+    <input type="color"><br>
+    <input type="date"><br>
+    <input type="datetime-local"><br>
+    <input type="email" placeholder="mail id"><br>
+    <input type="file" placeholder="select a file"><br>
+    <input type="hidden"><br>
+    <input type="image"><br>
+    <input type="month"><br>
+    <input type="number" placeholder="Phone Number"><br>
+    <input type="password" placeholder="enter your pwd"><br>
+    <input type="radio"><br>
+    <input type="range"><br>
+    <input type="reset"><br>
+    <input type="search" placeholder="What are your looking for?"><br>
+    <input type="submit"><br>
+    <input type="tel"><br>
+    <input type="text" placeholder="Name"><br>
+    <input type="time"><br>
+    <input type="url"><br>
+    <input type="week"><br>
+    </form>
+
+
+    <!-- The NAME attribute is used in the below form, to check its functionlaity please keep rest of the code in comments and look for url after submit -->
+    <form action="data">
+        <p>
+        <label for="name">Pick a Username</label>
+        <input type="text" placeholder="Usernamee" id="name" name="name">
+        </p>
+
+        <p>
+            <label for="pwd">Enter your password</label>
+            <input type="password" placeholder="Password" id="pwd" name="pwd">
+        </p>
+        
+        <p>
+            <label for="rn">Enter Your college Roll No</label>
+            <input type="number" placeholder="Roll No" id="rn" name="rn">
+        </p>
+
+        <p>
+            <h3>writing label in a different style</h3><br>
+            <label>
+                Pick Your Color:
+                <input type="color" name="color">
+            </label>
+        </p>
+        <h3>Button inside form will submit the form to what is mentioned near data and if its outside the form it will do the required task and  act like button</h3>
+        <h3>Button inside form default behaviour is to submit</h3><br>
+        <button>Submittt</button><br>
+
+        <h3>but the behaviour of  button can be brought back to actual behaviour by setting type as button</h3>
+        <button type="button">this button will not submit</button><br>
+
+        <h4>Using input to create submit</h4><br>
+        <input type="submit" placeholder="Please submit the form"><br>
+    </form>
+    <h4>button outside the form</h4>
+    <button>This button does nothing</button>
+
+    <hr>
+    <hr>
+    <hr> 
+    <hr>
+    <h2>Google</h2>
+    <p>
+    <form action="https://www.google.com/search">
+        <label for="search">What are your searching for?</label>
+        <input type="text" placeholder="Enter your search here" name="q" id="search">
+        <button>Search</button>
+    </form>
+    </p>
+
+    <p>
+    <form action="https://www.youtube.com/results">
+        <label for="sea">What do you wanna watch?</label>
+        <input type="text" placeholder="Enter your search here" name="search_query" id="sea">
+        <button>Search Youtube</button>
+    </form>
+    </p>
+<hr>
+<hr>
+    <h3>More Inputs!!!!!</h3>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <button>Submit</button>
+    </form>
+
+    <h3>Creating a radio button</h3>
+    <h4>Select your size</h4>
+    <form action="/ShirtSize">
+        <p>
+        
+        <input type="radio" name="size" id="XS" value="XS">
+        <label for="XS">XS</label>
+        <input type="radio" name="size" id="S" value="S">
+        <label for="S">S</label>
+        <input type="radio" name="size" id="M" value="M">
+        <label for="M">M</label>
+        <!-- When the size is selected and submitted to know what size is selected we use Value element  -->
+        <button>Submit</button>
+        </p>
+    </form>
+
+    <form action="/countryname">
+    <label for="country-select">Select Your Country</label>
+    <select name="Country" id="country-select">
+        <option value="">--Please choose your country--</option>
+        <option value="India">Bharat</option>
+        <option value="Pak">Pak</option>
+        <option value="China">China</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+        <!-- <option value="myself" selected>Fayaz</option> -->
+        <!-- The above line pre-select the option -->
+    </select>
+    <button>Submit</button>
+    
+
+    <p>
+        <label for="cheese">Amount of Cheese:</label>
+        <input type="range" name="cheese_level" id="cheese" min="0" max="100" value="75" step="1"><br>
+        
+        <label for="an">Enter your number: </label>
+        <input type="number" name="odd_num" id="an" min="1000" max="9999" step="2" >
+        <button>Submit</button>
+    </p>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+        <h2>Validation Demo</h2>
+        <p>
+            <label for="school_name">Enter your school Name:</label>
+            <input type="text" name="school" id="school_name" required><br>
+
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" minlength="8" maxlength="15" required>
+            <button>Submit</button>
+        </p>
+    
+
+
+    <p>
+        <label for="feedback">Your feedback is valuable to us:</label><br>
+        <textarea name="form_feedback" id="feedback" placeholder="Enter your text here......" rows="10" cols="40">
+    </p>
+    </form>
+
+    
+    
+    
+    
+    </body>
+</html>

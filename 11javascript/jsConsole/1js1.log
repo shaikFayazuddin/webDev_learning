@@ -1,0 +1,34 @@
+VM150:1 Console was cleared
+undefined
+458975632589 * 78945
+36233831314738610
+Read Evaluate Process Loop
+VM302:1 Uncaught SyntaxError: Unexpected identifier 'Evaluate'
+8546165 + 854.8585
+8547019.8585
+78952146/89
+887102.7640449438
+9%2
+1
+19%4
+3
+158792244347 - 81979
+158792162368
+2**4
+16
+3*2
+6
+4**2
+16
+0/0
+NaN
+typeof 4
+'number'
+type of 0/0
+VM539:1 Uncaught SyntaxError: Unexpected identifier 'of'
+1 + NaN
+NaN
+typeof NaN
+'number'
+(13%5)**2
+9

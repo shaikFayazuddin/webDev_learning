@@ -1,0 +1,140 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(89, 176, 163);
+}
+
+body {
+    margin:0;
+}
+
+/*  B B B B B B B O R D E R R R R R  R R R R */
+#one {
+    background-color: #B7D1DA;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+
+}
+/* the above style will increase the box dimensions to 210*210 to rectify this..... */
+#two {
+    background-color: #DC6BAD;
+    border-width: 5px;
+    border-color: gold;
+    border-style: inset;
+    box-sizing: border-box;
+    border-bottom-width: 8px;
+    
+    
+}
+#three {
+    background-color: #84CAE7;
+    border: 10px solid red;
+    border-radius: 10% 5%;
+}
+
+#box {
+    width: 200px;
+    height: 50px;
+    border: 5px solid green;
+    text-align: center;
+    padding: 100px 25px;
+    /* border-radius: 20px; */
+    /* border-radius: 20px 30px; */
+    /* border-radius: 60px 30px 2px 94px; */
+    /* border-radius: 20px/62px; */
+    /* border-radius: 120px 50px / 62px; */
+    /* border-radius: 100% 20% /70% 40%; */
+
+}
+
+/*   P A D D I N G */
+#b1 {
+    padding: 20px;
+}
+#b2 {
+    padding: 20px 40px 60px 80px;
+}
+#b3 {
+    padding: 20px 40px;
+}
+#b4 {
+    padding: 20px 40px 60px;
+}
+
+/* M A R G I N */
+#m1 {
+    margin : 10px 50% 10px 50%;
+}
+#m2 {
+    margin:30px 50px 20px 70px;
+}
+#m3 {
+    margin: 0%;
+}
+#m4 {
+    margin:10px 50px 20px;
+}
+
+/*  D I S P L A Y  */
+
+h1 {
+    background-color: #F6EFA6;
+    border: 5px solid black;
+}
+
+span {
+    background-color: #19647E;
+    border: 5px solid black;
+    color : white;
+}
+
+h2 {
+    background-color: #15b266;
+    border: 5px solid black;
+    display: inline;
+}
+
+.spa {
+    background-color: #b2da3a;
+    border: 5px solid black;
+    color: white;
+    display : block;
+
+}
+
+/* to demenstate display property */
+h4 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    width: 500px;
+    padding : 50px;
+    margin : 50px;
+}
+
+#disp  {
+    background-color: rgb(187, 37, 89);
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    padding : 100px;
+    margin : 50px;
+
+}
+
+.display {
+    height: 300px;
+    width : 300px;
+    background-color: navy;
+    border: 5px solid black;
+    /* display: inline;  */
+    /* the above line will be ignored because in inline 
+    width and height are ignored */
+    display: inline-block;
+    margin: 50px;
+    /* display: none; */
+    /* display none will hide the element */
+}
+
+
+/* CSS UNITS */

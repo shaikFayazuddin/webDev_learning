@@ -1,0 +1,56 @@
+VM7007:1 Console was cleared
+undefined
+Math.PI
+3.141592653589793
+Math
+Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}E: 2.718281828459045LN2: 0.6931471805599453LN10: 2.302585092994046LOG2E: 1.4426950408889634LOG10E: 0.4342944819032518PI: 3.141592653589793SQRT1_2: 0.7071067811865476SQRT2: 1.4142135623730951abs: ƒ abs()acos: ƒ acos()acosh: ƒ acosh()asin: ƒ asin()asinh: ƒ asinh()atan: ƒ atan()atan2: ƒ atan2()atanh: ƒ atanh()cbrt: ƒ cbrt()ceil: ƒ ceil()clz32: ƒ clz32()cos: ƒ cos()cosh: ƒ cosh()exp: ƒ exp()expm1: ƒ expm1()floor: ƒ floor()fround: ƒ fround()hypot: ƒ hypot()imul: ƒ imul()log: ƒ log()log1p: ƒ log1p()log2: ƒ log2()log10: ƒ log10()max: ƒ max()min: ƒ min()pow: ƒ pow()random: ƒ random()round: ƒ round()sign: ƒ sign()sin: ƒ sin()sinh: ƒ sinh()sqrt: ƒ sqrt()tan: ƒ tan()tanh: ƒ tanh()trunc: ƒ trunc()Symbol(Symbol.toStringTag): "Math"[[Prototype]]: Object
+Math.sqrt(100)
+10
+Math.floor(23.7895642589)
+23
+Match.ceil(59.52684)
+VM7244:1 Uncaught ReferenceError: Match is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM7244:1
+Math.ceil(59.52684)
+60
+Math.ceil(56.52624)
+57
+Math.random()
+0.2248636609952097
+Math.random()
+0.6722396279423515
+Math.random()
+0.34770426736963733
+Math.random()
+0.32484944455415543
+const step1 = Math.random();
+undefined
+const step2 = step1*10
+undefined
+const = step3 = Math.floor(step2)
+VM7627:1 Uncaught SyntaxError: Unexpected token '='
+const step3 = Math.floor(step2)
+undefined
+const step4 = step3 + 1
+undefined
+step4
+7
+step4
+7
+step4
+7
+step2
+6.395972564765806
+step2
+6.395972564765806
+let ranum = Math.floor(Math.random() * 5)
+undefined
+ranum
+4
+ranum
+4
+ranum
+4
+Math.pow(2,5)
+32

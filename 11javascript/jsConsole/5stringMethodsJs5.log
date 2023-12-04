@@ -1,0 +1,36 @@
+// String Methods
+undefined
+let msg = 'I am robo'
+undefined
+let yellMsg = msg.toUpperCase()
+undefined
+yellMsg
+'I AM ROBO'
+let ang
+undefined
+let angry = 'Leave mE aLone'
+undefined
+angry.toLowerCase()
+'leave me alone'
+angry
+'Leave mE aLone'
+let greeting = '   leave me alone plx   ';
+undefined
+let trimmed = greeting.trim()
+undefined
+trimmed
+'leave me alone plx'
+greeting
+'   leave me alone plx   '
+let msg = 'hello again!!!!!!!!!!!!!                     '
+undefined
+msg
+'hello again!!!!!!!!!!!!!                     '
+let nesMsg = msg.trim().toUpperCase()
+undefined
+nesMsg
+'HELLO AGAIN!!!!!!!!!!!!!'
+const messge = '      Taste the Rainbow! '
+undefined
+let whisper = messge.trim().toUpperCase()
+undefined

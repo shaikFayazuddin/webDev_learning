@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <link rel="stylesheet" href="cssunits.css">
+</head>
+
+<body>
+    <h1>
+        CSS Units Explained 
+        <button class="butt">Click me</button>
+    </h1>
+    <h2>Realtive Units</h2>
+    <p>Percentages are always relative to some other value.</p> <br>
+    <p>Sometimes, its a value from the parent and other times it's a value from the element itself.</p>
+    <section>
+        <div>
+            <div 
+            id="inside">
+            </div>
+
+            <button class="butt">Click me</button>
+
+        </div>
+        
+    </section>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    
+    <p>Em's are relative Units : With font-size, 1em equals the font-size of the parent.
+        2em's is twice the font-size of the parent, etc.
+    </p>
+
+
+    <p>
+        With other properties, 1em is equal to the computed font-size of the element itself.
+        When em's are used the elements change relative to their parent. See the example of button on how it changes wrt to parent.
+        
+    </p>
+
+    <article>
+        <h3> This is child EM</h3>
+        <h4>Even I am child of EM and my father is article element</h4>
+        
+        <p>This is also child of EM....demostrating how prop changes wrt to parent</p>
+        <button class="butt">Click me</button>
+    </article>
+
+    <h4>Backdrop of using EM's</h4>
+    <p>When em's used for nested lists, they multiply in the nested manner</p>
+
+    <nav id="ems">
+        <ul>
+            <li>
+                Pasta
+                <ul>
+                    <li>
+                        Ravoli
+                        <ul>
+                            <li>Spincah Ricotta</li>  
+                        </ul>
+                        <li>Penne</li>
+                    </li>
+                </ul>
+                <li>Salad</li>
+                <li>Gelato</li>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    
+    <h4>REM</h4>
+    <p>To rectify backdrop of EM, REM(Root EMS) are used. 
+        Relative to the root html element's font-size. Often easier to work With.
+
+        If the root fonst-size is 20px, 1 rem is always 20px, 2 rem is always 40px, etc.
+    </p>
+
+<button id="bittu1"> REM 1</button><br>
+<button id="bittu2"> REM 2</button><br>
+<button id="bittu3"> REM 3</button><br>
+<button id="bittu4"> REM 4</button><br>
+<button id="bittu5"> REM 5</button><br>
+<button id="bittu6"> REM 6</button><br>
+</body>
+</html>

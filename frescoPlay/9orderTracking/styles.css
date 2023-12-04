@@ -1,0 +1,82 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+h4 {
+    padding-bottom: 20px;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 414px;
+}
+
+@media only screen and (min-width: 48rem) {
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+form input[type="text"] {
+    border: none;
+    line-height: 3rem;
+    padding: 0 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    line-height: 3rem;
+    color: #ffffff;
+    border: none;
+    padding: 0 3rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 32rem) {
+
+    button {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    button {
+        margin-top: 0;
+    }
+}
+
+.trackingDetails {
+    margin-top: 80px;
+}
+
+thead {
+    background-color: #dddddd;
+}
+
+.noOrdersFound {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.container {
+    margin-top: 90px;
+}
+
+.btnGrp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

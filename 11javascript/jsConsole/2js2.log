@@ -1,0 +1,86 @@
+VM646:1 Console was cleared
+undefined
+let year = 2022;
+undefined
+year
+2022
+let dogs = 20;
+undefined
+let cats = 10
+undefined
+dogs + cats
+30
+dogs + 2
+22
+let pets = dogs + cats
+undefined
+pets
+30
+pets =30
+30
+pets
+30
+dogs = 26
+26
+pets
+30
+let name = java
+VM1068:1 Uncaught ReferenceError: java is not defined
+    at <anonymous>:1:12
+(anonymous) @ VM1068:1
+let age = 22
+undefined
+age
+22
+age = 25
+25
+let numLives = 9
+undefined
+numLives -= 1
+8
+numLives--
+8
+numLives
+7
+nmlives++
+VM1266:1 Uncaught ReferenceError: nmlives is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1266:1
+numLives++
+7
+numLives
+8
+numLives++;
+8
+numLives++;
+9
+numLives++;
+10
+numLives++;
+11
+numLives++;
+12
+numLives;
+13
+numLives;
+13
+const pi = 3.14
+undefined
+pi += 1
+VM1408:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:4
+(anonymous) @ VM1408:1
+const daysinweek = 7
+undefined
+// const prevents from updating 
+undefined
+// 
+undefined
+var rundistance = 36.2
+undefined
+rundistance
+36.2
+rundistance++
+36.2
+rundistance++
+37.2

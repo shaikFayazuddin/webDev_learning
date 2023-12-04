@@ -1,0 +1,61 @@
+VM4132:1 Console was cleared
+undefined
+
+let tvShow = 'catdog'
+undefined
+
+let pet1 = tvShow.indexOf('cat')
+undefined
+
+let pet2 = tvShow.indexOf('dog')
+undefined
+
+let pet3 = tvShow.indexOf('rat')
+undefined
+
+pet1
+0
+pet2
+3
+pet3
+-1
+'haha that is so funny!'.indexOf('h')
+0
+'haha that is so funny!'.indexOf('$')
+-1
+'haha that is so funny!'.indexOf('$')
+-1
+'haha that is so funny!'.indexOf('!')
+21
+'haha that is so funny!'.slice(5)
+'that is so funny!'
+'haha that is so funny!'.slice(5,15)
+'that is so'
+let noun = 'haha that is so funny!'
+undefined
+let msg = 'haha that is so funny!'
+undefined
+let noun = msg.slice(14,20)
+undefined
+noun
+'o funn'
+msg.indexOf('funny')
+16
+let noun = msg.slice(16,21)
+undefined
+noun
+'funny'
+lrt action = 'tehee! that is so funny, tehee)
+VM5532:1 Uncaught SyntaxError: Unexpected identifier 'action'
+let action = 'tehee! that is so funny, tehee)
+VM5554:1 Uncaught SyntaxError: Invalid or unexpected token
+let action = 'tehee! that is so funny, tehee'
+undefined
+let correctAction = action.replace('tehee', 'hahaha')
+undefined
+
+let correctAction = action.replaceAll('tehee', 'hahaha')
+undefined
+
+correctAction
+'hahaha! that is so funny, hahaha'

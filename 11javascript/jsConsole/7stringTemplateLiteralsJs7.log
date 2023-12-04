@@ -1,0 +1,30 @@
+VM6099:1 Console was cleared
+undefined
+'ha'.repeat(10)
+'hahahahahahahahahaha'
+let product = 'pin'
+undefined
+let price = 3.99
+undefined
+let qty = 5;
+undefined
+let msg = 'You bought ' + qty + ' ' + prodcut + '. Total is : ' + price * qty
+VM6472:1 Uncaught ReferenceError: prodcut is not defined
+    at <anonymous>:1:39
+(anonymous) @ VM6472:1
+let msg = 'You bought ' + qty + ' ' + prodcut + '. Total is : ' + price * qty
+VM6476:1 Uncaught ReferenceError: prodcut is not defined
+    at <anonymous>:1:39
+(anonymous) @ VM6476:1
+let msg = 'You bought ' + qty + ' ' + product + '. Total is : ' + price * qty
+undefined
+msg
+'You bought 5 pin. Total is : 19.950000000000003'
+let newMsg = `You bought ${qty} ${pin}. Total is : ${price*qty}`
+VM6749:1 Uncaught ReferenceError: pin is not defined
+    at <anonymous>:1:35
+(anonymous) @ VM6749:1
+let newMsg = `You bought ${qty} ${product}. Total is : ${price*qty}`
+undefined
+let newMsg = `You bought ${qty} ${product.toUpperCase()}. Total is : ${price*qty}`
+undefined

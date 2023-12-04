@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    color : white
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 400%;
+}
+section {
+    background-color: #C49BBB;
+    width: 500px;
+    height: 500px;
+}
+
+div {
+    background-color: #39393A;
+    width: 50%;
+    height: 50%;
+
+}
+
+#inside {
+    background-color: #F38375;
+    width: 50%;
+    height: 50%;
+
+}
+
+
+
+article {
+    font-size: 20px;
+}
+
+h3 {
+    font-size : 3em;
+    margin-left: 1em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+.butt {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #6A5D7B;
+    color: white
+}
+
+#ems {
+    font-size : 18px;
+}
+
+ul {
+    font-size: 1.5em;
+}
+
+#bittu1 {
+    font-size: 1rem;
+}
+
+
+#bittu2 {
+    font-size: 2rem;
+}
+/* above the font size of bittu1 is 2*root font size */
+#bittu3 {
+    font-size: 3rem;
+}
+#bittu4 {
+    font-size: 4rem;
+}
+#bittu5 {
+    font-size: 5rem;
+}
+#bittu6 {
+    font-size: 6rem;
+}
